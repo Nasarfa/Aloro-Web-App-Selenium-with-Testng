@@ -34,6 +34,7 @@ public class LoginTest extends BaseClass{
 	public void Verify_Webapp_launch_Tc01() {
 		loginpage=new LoginPage();
 		Log.startTestCase("Login Test Case Execution Start here");
+		Log.info("Verification start here");
 		boolean launch_verify=loginpage.verify_web_launch();
 		Assert.assertTrue(launch_verify);
 		Log.endTestCase("Test Case Execution End here");
