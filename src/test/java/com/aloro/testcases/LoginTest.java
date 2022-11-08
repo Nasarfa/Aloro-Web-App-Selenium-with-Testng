@@ -50,6 +50,6 @@ public class LoginTest extends BaseClass{
 		Boolean login=loginpage.verify_login();
 		Log.info("Verification of Login Start");
         Assert.assertTrue(login);
-		Log.endTestCase("Login Test Case Execution End here");
+		Log.endTestCase("Login Test Case Execution End here...");
 	}
 }
