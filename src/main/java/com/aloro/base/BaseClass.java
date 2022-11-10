@@ -22,6 +22,7 @@ import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Parameters;
 import com.aloro.utility.ExtentManager;
 import com.aloro.utility.VideoRecorder;
+import com.aloro.utility.ZipCompress;
 import com.beust.jcommander.Parameter;
 
 
@@ -111,8 +112,10 @@ public class BaseClass {
 	public void afterSuite() throws Exception {
 		ExtentManager.endReport();
 		String record=prop.getProperty("VideoRecording");
+		String zipcompress=prop.getProperty("ExtentReportlocation");
 		if(record.equalsIgnoreCase("True")) {
 		VideoRecorder.stopRecord();
+		ZipCompress.compress(zipcompress);
 	}
 	}
 }
