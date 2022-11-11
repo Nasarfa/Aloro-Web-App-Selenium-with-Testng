@@ -781,17 +781,17 @@ public class Action extends BaseClass implements ActionInterface {
 		String dateName = new SimpleDateFormat("yyyy-MM-dd hh:mm:ss").format(new Date());
 		TakesScreenshot takesScreenshot = (TakesScreenshot) driver;
 		File source = takesScreenshot.getScreenshotAs(OutputType.FILE);
-		String destination = System.getProperty("user.dir") + "/Extent Report/Screenshots/" + filename + "_" + dateName + ".png";
-
-		try {
-			FileUtils.copyFile(source, new File(destination));
-		} catch (Exception e) {
-			e.getMessage();
-		}
+//		String destination = System.getProperty("user.dir") + "/Extent Report/Screenshots/" + filename + "_" + dateName + ".png";
+//
+//		try {
+//			FileUtils.copyFile(source, new File(destination));
+//		} catch (Exception e) {
+//			e.getMessage();
+//		}
 		// This new path for jenkins  
-		String newImageString = "http://localhost:9090/job/Aloro_Web_App_Selenium/Extent%20Report/Screenshots//" + filename + "_"
+		String newImageString = "/Users/nasar/.jenkins/workspace/Aloro_Web_App_Selenium/Extent Report/Screenshots/" + filename + "_"
 				+ dateName + ".png";
-		return destination;
+		return newImageString;
 	}
 	@Override
 	public String getCurrentTime() {
