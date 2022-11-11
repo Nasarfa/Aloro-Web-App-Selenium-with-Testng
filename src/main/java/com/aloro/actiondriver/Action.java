@@ -788,8 +788,8 @@ public class Action extends BaseClass implements ActionInterface {
 		} catch (Exception e) {
 			e.getMessage();
 		}
-		// This new path for jenkins
-		String newImageString = "http://localhost:9090/job/Aloro_Web_App_Selenium/ws/Extent Report/Screenshots/" + filename + "_"
+		// This new path for jenkins  
+		String newImageString = "http://localhost:9090/job/Aloro_Web_App_Selenium/Extent%20Report/Screenshots//" + filename + "_"
 				+ dateName + ".png";
 		return destination;
 	}
