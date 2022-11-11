@@ -46,6 +46,7 @@ public class LoginTest extends BaseClass{
 	    Log.startTestCase("Login Test Case Execution Start here");
 		loginpage.enter_user_name(Username);
 		loginpage.enter_password(Password);
+		Log.info("Login Button Clicked");
 		loginpage.click_login_button();
 		Boolean login=loginpage.verify_login();
 		Log.info("Verification of Login Start");
