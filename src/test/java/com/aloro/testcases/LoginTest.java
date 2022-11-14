@@ -63,7 +63,8 @@ public class LoginTest extends BaseClass{
 		loginpage.click_login_button();
 		Boolean login=loginpage.verify_login();
 		Log.info("Verification of Login Start");
-        Assert.assertTrue(false);
+        Assert.assertTrue(login);
 		Log.endTestCase("Login Test Case Execution End here...");
 	}
+	
 }
