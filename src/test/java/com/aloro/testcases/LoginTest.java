@@ -48,7 +48,7 @@ public class LoginTest extends BaseClass{
 		boolean launch_verify=loginpage.verify_web_launch();
 		Log.info("Verification start here");
 		Assert.assertTrue(launch_verify);
-		Log.endTestCase("Test Case Execution End here");
+		Log.endTestCase("Test Case Execution End here"); 
 	}
 	@Test(priority = 1,groups= {"Smoke","Sanity","Regression"},dataProvider="credentials",dataProviderClass = DataProviders.class,description = "Verify Login test case")
 	@Severity(SeverityLevel.BLOCKER)
