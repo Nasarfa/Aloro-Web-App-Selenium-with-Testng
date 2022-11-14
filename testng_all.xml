@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Suite">
+<suite name=" Aloro Suite">
 <listeners>
 <listener class-name="com.aloro.utility.ListenerClass"></listener>
 <listener class-name="com.aloro.utility.Transformer"></listener>
+<listener class-name="com.aloro.utility.AllureListener"></listener>
 </listeners>
-  <test thread-count="5" name="Test">
+  <test thread-count="5" name=" Aloro Test">
   <parameter name="browser" value="chrome"></parameter>
     <classes>
       <class name="com.aloro.testcases.LoginTest"/>
