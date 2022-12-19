@@ -807,9 +807,9 @@ public class Action extends BaseClass implements ActionInterface {
 			e.getMessage();
 		}
 		// This new path for jenkins 
-//		String newImageString = "http://localhost:9090/job/Aloro_Web_App_Selenium/ws/Extent Report/Screenshots/" + filename + "_"
-//				+ dateName + ".png";
-		return destination;
+		String newImageString = "http://localhost:9090/job/Aloro_Web_App_Selenium/ws/Extent Report/Screenshots/" + filename + "_"
+				+ dateName + ".png";
+		return newImageString;
 	}
 	@Override
 	public String getCurrentTime() {
