@@ -2,38 +2,38 @@
 <testng-results skipped="2" failed="0" ignored="0" total="2" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="1702" started-at="2022-11-08T16:38:24 IST" finished-at="2022-11-08T16:38:26 IST">
+  <suite name="Default suite" duration-ms="3865" started-at="2022-12-19T12:04:15 IST" finished-at="2022-12-19T12:04:19 IST">
     <groups>
       <group name="Sanity">
-        <method signature="LoginTest.Verify_Login_Tc02(java.lang.String,java.lang.String)[pri:1, instance:com.aloro.testcases.LoginTest@e720b71]" name="Verify_Login_Tc02" class="com.aloro.testcases.LoginTest"/>
-        <method signature="LoginTest.Verify_Webapp_launch_Tc01()[pri:0, instance:com.aloro.testcases.LoginTest@e720b71]" name="Verify_Webapp_launch_Tc01" class="com.aloro.testcases.LoginTest"/>
+        <method signature="LoginTest.Verify_Login_Tc02(java.lang.String,java.lang.String)[pri:1, instance:com.aloro.testcases.LoginTest@3a7b503d]" name="Verify_Login_Tc02" class="com.aloro.testcases.LoginTest"/>
+        <method signature="LoginTest.Verify_Webapp_launch_Tc01()[pri:0, instance:com.aloro.testcases.LoginTest@3a7b503d]" name="Verify_Webapp_launch_Tc01" class="com.aloro.testcases.LoginTest"/>
       </group> <!-- Sanity -->
       <group name="Regression">
-        <method signature="LoginTest.Verify_Login_Tc02(java.lang.String,java.lang.String)[pri:1, instance:com.aloro.testcases.LoginTest@e720b71]" name="Verify_Login_Tc02" class="com.aloro.testcases.LoginTest"/>
-        <method signature="LoginTest.Verify_Webapp_launch_Tc01()[pri:0, instance:com.aloro.testcases.LoginTest@e720b71]" name="Verify_Webapp_launch_Tc01" class="com.aloro.testcases.LoginTest"/>
+        <method signature="LoginTest.Verify_Login_Tc02(java.lang.String,java.lang.String)[pri:1, instance:com.aloro.testcases.LoginTest@3a7b503d]" name="Verify_Login_Tc02" class="com.aloro.testcases.LoginTest"/>
+        <method signature="LoginTest.Verify_Webapp_launch_Tc01()[pri:0, instance:com.aloro.testcases.LoginTest@3a7b503d]" name="Verify_Webapp_launch_Tc01" class="com.aloro.testcases.LoginTest"/>
       </group> <!-- Regression -->
       <group name="Smoke">
-        <method signature="LoginTest.Verify_Login_Tc02(java.lang.String,java.lang.String)[pri:1, instance:com.aloro.testcases.LoginTest@e720b71]" name="Verify_Login_Tc02" class="com.aloro.testcases.LoginTest"/>
-        <method signature="LoginTest.Verify_Webapp_launch_Tc01()[pri:0, instance:com.aloro.testcases.LoginTest@e720b71]" name="Verify_Webapp_launch_Tc01" class="com.aloro.testcases.LoginTest"/>
+        <method signature="LoginTest.Verify_Login_Tc02(java.lang.String,java.lang.String)[pri:1, instance:com.aloro.testcases.LoginTest@3a7b503d]" name="Verify_Login_Tc02" class="com.aloro.testcases.LoginTest"/>
+        <method signature="LoginTest.Verify_Webapp_launch_Tc01()[pri:0, instance:com.aloro.testcases.LoginTest@3a7b503d]" name="Verify_Webapp_launch_Tc01" class="com.aloro.testcases.LoginTest"/>
       </group> <!-- Smoke -->
     </groups>
-    <test name="Default test" duration-ms="1702" started-at="2022-11-08T16:38:24 IST" finished-at="2022-11-08T16:38:26 IST">
+    <test name="Default test" duration-ms="3865" started-at="2022-12-19T12:04:15 IST" finished-at="2022-12-19T12:04:19 IST">
       <class name="com.aloro.testcases.LoginTest">
-        <test-method status="PASS" signature="loadConfig()[pri:0, instance:com.aloro.testcases.LoginTest@e720b71]" name="loadConfig" is-config="true" duration-ms="674" started-at="2022-11-08T16:38:23 IST" finished-at="2022-11-08T16:38:24 IST">
+        <test-method status="PASS" signature="loadConfig()[pri:0, instance:com.aloro.testcases.LoginTest@3a7b503d]" name="loadConfig" is-config="true" duration-ms="2034" started-at="2022-12-19T12:04:13 IST" finished-at="2022-12-19T12:04:15 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loadConfig -->
-        <test-method status="FAIL" signature="setup(java.lang.String)[pri:0, instance:com.aloro.testcases.LoginTest@e720b71]" name="setup" is-config="true" duration-ms="-1667905704513" started-at="2022-11-08T16:38:24 IST" finished-at="1970-01-01T05:30:00 IST">
+        <test-method status="FAIL" signature="setup(java.lang.String)[pri:0, instance:com.aloro.testcases.LoginTest@3a7b503d]" name="setup" is-config="true" duration-ms="-1671431655463" started-at="2022-12-19T12:04:15 IST" finished-at="1970-01-01T05:30:00 IST">
           <exception class="org.testng.TestNGException">
             <message>
               <![CDATA[
 Parameter 'browser' is required by BeforeMethod on method setup but has not been marked @Optional or defined
-in /private/var/folders/3c/n71_h9jd6rl3j_fbp6_12gmm0000gp/T/testng-eclipse-969939385/testng-customsuite.xml]]>
+in /private/var/folders/3c/n71_h9jd6rl3j_fbp6_12gmm0000gp/T/testng-eclipse--274095788/testng-customsuite.xml]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.testng.TestNGException: 
 Parameter 'browser' is required by BeforeMethod on method setup but has not been marked @Optional or defined
-in /private/var/folders/3c/n71_h9jd6rl3j_fbp6_12gmm0000gp/T/testng-eclipse-969939385/testng-customsuite.xml
+in /private/var/folders/3c/n71_h9jd6rl3j_fbp6_12gmm0000gp/T/testng-eclipse--274095788/testng-customsuite.xml
 at org.testng.internal.Parameters.createParams(Parameters.java:270)
 at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:358)
 at org.testng.internal.Parameters.createParameters(Parameters.java:700)
@@ -69,17 +69,17 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="SKIP" signature="Verify_Webapp_launch_Tc01()[pri:0, instance:com.aloro.testcases.LoginTest@e720b71]" name="Verify_Webapp_launch_Tc01" duration-ms="0" started-at="2022-11-08T16:38:24 IST" finished-at="2022-11-08T16:38:24 IST">
+        <test-method status="SKIP" signature="Verify_Webapp_launch_Tc01()[pri:0, instance:com.aloro.testcases.LoginTest@3a7b503d]" name="Verify_Webapp_launch_Tc01" duration-ms="0" started-at="2022-12-19T12:04:15 IST" description="Verify project launch url test case" finished-at="2022-12-19T12:04:15 IST">
           <exception class="org.testng.TestNGException">
             <message>
               <![CDATA[
 Parameter 'browser' is required by BeforeMethod on method setup but has not been marked @Optional or defined
-in /private/var/folders/3c/n71_h9jd6rl3j_fbp6_12gmm0000gp/T/testng-eclipse-969939385/testng-customsuite.xml]]>
+in /private/var/folders/3c/n71_h9jd6rl3j_fbp6_12gmm0000gp/T/testng-eclipse--274095788/testng-customsuite.xml]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.testng.TestNGException: 
 Parameter 'browser' is required by BeforeMethod on method setup but has not been marked @Optional or defined
-in /private/var/folders/3c/n71_h9jd6rl3j_fbp6_12gmm0000gp/T/testng-eclipse-969939385/testng-customsuite.xml
+in /private/var/folders/3c/n71_h9jd6rl3j_fbp6_12gmm0000gp/T/testng-eclipse--274095788/testng-customsuite.xml
 at org.testng.internal.Parameters.createParams(Parameters.java:270)
 at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:358)
 at org.testng.internal.Parameters.createParameters(Parameters.java:700)
@@ -115,15 +115,15 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Verify_Webapp_launch_Tc01 -->
-        <test-method status="SKIP" signature="tearDown()[pri:0, instance:com.aloro.testcases.LoginTest@e720b71]" name="tearDown" is-config="true" duration-ms="-1667905704539" started-at="2022-11-08T16:38:24 IST" finished-at="1970-01-01T05:30:00 IST">
+        <test-method status="SKIP" signature="tearDown()[pri:0, instance:com.aloro.testcases.LoginTest@3a7b503d]" name="tearDown" is-config="true" duration-ms="-1671431655906" started-at="2022-12-19T12:04:15 IST" finished-at="1970-01-01T05:30:00 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="SKIP" signature="setup(java.lang.String)[pri:0, instance:com.aloro.testcases.LoginTest@e720b71]" name="setup" is-config="true" duration-ms="-1667905706120" started-at="2022-11-08T16:38:26 IST" finished-at="1970-01-01T05:30:00 IST">
+        <test-method status="SKIP" signature="setup(java.lang.String)[pri:0, instance:com.aloro.testcases.LoginTest@3a7b503d]" name="setup" is-config="true" duration-ms="-1671431659122" started-at="2022-12-19T12:04:19 IST" finished-at="1970-01-01T05:30:00 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="SKIP" signature="Verify_Login_Tc02(java.lang.String,java.lang.String)[pri:1, instance:com.aloro.testcases.LoginTest@e720b71]" name="Verify_Login_Tc02" duration-ms="0" started-at="2022-11-08T16:38:26 IST" data-provider="credentials" finished-at="2022-11-08T16:38:26 IST">
+        <test-method status="SKIP" signature="Verify_Login_Tc02(java.lang.String,java.lang.String)[pri:1, instance:com.aloro.testcases.LoginTest@3a7b503d]" name="Verify_Login_Tc02" duration-ms="0" started-at="2022-12-19T12:04:19 IST" description="Verify Login test case" data-provider="credentials" finished-at="2022-12-19T12:04:19 IST">
           <params>
             <param index="0">
               <value>
@@ -140,12 +140,12 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
             <message>
               <![CDATA[
 Parameter 'browser' is required by BeforeMethod on method setup but has not been marked @Optional or defined
-in /private/var/folders/3c/n71_h9jd6rl3j_fbp6_12gmm0000gp/T/testng-eclipse-969939385/testng-customsuite.xml]]>
+in /private/var/folders/3c/n71_h9jd6rl3j_fbp6_12gmm0000gp/T/testng-eclipse--274095788/testng-customsuite.xml]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.testng.TestNGException: 
 Parameter 'browser' is required by BeforeMethod on method setup but has not been marked @Optional or defined
-in /private/var/folders/3c/n71_h9jd6rl3j_fbp6_12gmm0000gp/T/testng-eclipse-969939385/testng-customsuite.xml
+in /private/var/folders/3c/n71_h9jd6rl3j_fbp6_12gmm0000gp/T/testng-eclipse--274095788/testng-customsuite.xml
 at org.testng.internal.Parameters.createParams(Parameters.java:270)
 at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:358)
 at org.testng.internal.Parameters.createParameters(Parameters.java:700)
@@ -181,11 +181,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Verify_Login_Tc02 -->
-        <test-method status="SKIP" signature="tearDown()[pri:0, instance:com.aloro.testcases.LoginTest@e720b71]" name="tearDown" is-config="true" duration-ms="-1667905706136" started-at="2022-11-08T16:38:26 IST" finished-at="1970-01-01T05:30:00 IST">
+        <test-method status="SKIP" signature="tearDown()[pri:0, instance:com.aloro.testcases.LoginTest@3a7b503d]" name="tearDown" is-config="true" duration-ms="-1671431659166" started-at="2022-12-19T12:04:19 IST" finished-at="1970-01-01T05:30:00 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="SKIP" signature="afterSuite()[pri:0, instance:com.aloro.testcases.LoginTest@e720b71]" name="afterSuite" is-config="true" duration-ms="-1667905706286" started-at="2022-11-08T16:38:26 IST" finished-at="1970-01-01T05:30:00 IST">
+        <test-method status="SKIP" signature="afterSuite()[pri:0, instance:com.aloro.testcases.LoginTest@3a7b503d]" name="afterSuite" is-config="true" duration-ms="-1671431659273" started-at="2022-12-19T12:04:19 IST" finished-at="1970-01-01T05:30:00 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterSuite -->
