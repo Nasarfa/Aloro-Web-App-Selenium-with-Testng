@@ -56,16 +56,16 @@ public class LoginTest extends BaseClass{
 	@Story("Story Name: To Check login functionality of the web app")
 	public void Verify_Login_Tc02(String Username,String Password) throws Throwable {
 		loginpage=new LoginPage();
-	    Log.startTestCase("Login Test Case Execution Start here");
+		Log.startTestCase("Login Test Case Execution Start here");
 		loginpage.enter_user_name(Username);
 		loginpage.enter_password(Password);
 		Log.info("Login Button Clicked");
 		loginpage.click_login_button();
 		Boolean login=loginpage.verify_login();
 		Log.info("Verification of Login Start");
-       // Assert.assertTrue(login);
-		Assert.assertFalse(login);
+		// Assert.assertTrue(login);
+		Assert.assertTrue(login);
 		Log.endTestCase("Login Test Case tt Execution End here...");
 	}
-	
+
 }
