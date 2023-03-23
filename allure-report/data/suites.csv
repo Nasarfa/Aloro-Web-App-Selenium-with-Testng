@@ -1,0 +1,3 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Mon Nov 14 17:30:57 IST 2022","Mon Nov 14 17:31:01 IST 2022","4239"," Aloro Suite"," Aloro Test","com.aloro.testcases.LoginTest","com.aloro.testcases.LoginTest","Verify_Login_Tc02","Verify Login test case","Test Case Description: Verify Login functionality test case"
+"passed","Mon Nov 14 17:30:46 IST 2022","Mon Nov 14 17:30:47 IST 2022","321"," Aloro Suite"," Aloro Test","com.aloro.testcases.LoginTest","com.aloro.testcases.LoginTest","Verify_Webapp_launch_Tc01","Verify project launch url test case","Test Case Description: Verify Project launch url"

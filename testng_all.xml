@@ -9,7 +9,7 @@
   <test thread-count="5" name=" Aloro Test">
   <parameter name="browser" value="chrome"></parameter>
     <classes>
-      <class name="com.aloro.testcases.LoginTest"/>
+      <class name="com.aloro.testcases.LoginTest"/> 
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
